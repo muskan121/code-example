@@ -1,9 +1,18 @@
 <!DOCTYPE html>
+<html>
+<body>
 
 <h1>My Web Page -jai</h1>
+<p id = "demo"> </p>
 
 <script>
-document.write("My JavaScript");
+var s1 = 3;
+var s2 = 4;
+var s3 = 5;
+var p = ((s1+s2+s3)/2);
+var ss = (p*(p-s1)*(p-s2)*(p-s3));
+var area = Math.sqrt(ss);
+document.getElementById("demo").innerHTML = area;
 </script>
 
 </body>
